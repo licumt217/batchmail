@@ -1,0 +1,33 @@
+{
+  "name": "batchmail",
+  "version": "1.0.0",
+  "description": "batch sending mails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/licumt217/batchmail.git"
+  },
+  "keywords": [
+    "mail",
+    "nodemailer"
+  ],
+  "author": "liq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/licumt217/batchmail/issues"
+  },
+  "homepage": "https://github.com/licumt217/batchmail#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "excel-export": "^0.5.1",
+    "node-schedule": "^1.2.0",
+    "nodemailer": "^2.6.4",
+    "request": "^2.75.0"
+  },
+  "devDependencies": {
+    "nodemailer": "^2.7.2"
+  }
+}

@@ -53,15 +53,15 @@ const util={
             attachments: [
                 {
                     filename: 'qrcode.png',
-                    path: path.resolve(__dirname, '../qrcode.png'),
+                    path: path.resolve(__dirname, '../images/qrcode.png'),
                     cid: 'qrcode',
                 },{
                     filename: 'demo1.png',
-                    path: path.resolve(__dirname, '../demo1.png'),
+                    path: path.resolve(__dirname, '../images/demo1.png'),
                     cid: 'demo1',
                 },{
                     filename: 'demo2.png',
-                    path: path.resolve(__dirname, '../demo2.png'),
+                    path: path.resolve(__dirname, '../images/demo2.png'),
                     cid: 'demo2',
                 }
             ]
@@ -70,6 +70,7 @@ const util={
             //动态改变收件人地址到文件存储
             fs.writeFile('../data/data'+fileIndex+'.txt', ++toUsername, function (e) {
                 if(err){
+                    console.log(err)
                     let errCode=err.responseCode,errResponse=err.response;
                     console.log(errCode)
                     console.log(errResponse)
