@@ -47,7 +47,7 @@ const util={
         var transporter=nodemailer.createTransport(smtpConfig);
         var opts={
             from:smtpConfig.auth.user,
-            to:String("447818666")+'@qq.com',
+            to:String("fengjian880110@126.com"),
             subject:content.subject,
             html:content.html,
             attachments: [
