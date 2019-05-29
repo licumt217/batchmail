@@ -17,6 +17,11 @@ let user742={
     pass:'cdrmcyqcawlgbbgd'
 }
 
+let jian={
+    name:'fengjian880110@126.com',
+    pass:'mail18600005674'
+}
+
 
 // 2017.9.7号邮箱可用
 // 3373256392
@@ -45,4 +50,4 @@ let user742={
 
 
 
-util.sendMail(user447.name,user447.pass,1);
+util.sendMail(jian.name,jian.pass,1);

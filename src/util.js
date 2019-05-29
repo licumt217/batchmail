@@ -47,7 +47,7 @@ const util={
         var transporter=nodemailer.createTransport(smtpConfig);
         var opts={
             from:smtpConfig.auth.user,
-            to:String(toUsername)+'@qq.com',
+            to:String("447818666")+'@qq.com',
             subject:content.subject,
             html:content.html,
             attachments: [
@@ -109,7 +109,7 @@ const util={
                     })
 
                     setTimeout(function () {
-                        util.sendMail(fromUsername,fromPass,fileIndex);
+                        // util.sendMail(fromUsername,fromPass,fileIndex);
                     },content.loopTime)
                 }
             });
