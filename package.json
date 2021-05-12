@@ -24,10 +24,10 @@
     "cheerio": "^0.22.0",
     "excel-export": "^0.5.1",
     "node-schedule": "^1.2.0",
-    "nodemailer": "^2.6.4",
+    "nodemailer": "^6.4.16",
     "request": "^2.75.0"
   },
   "devDependencies": {
-    "nodemailer": "^2.7.2"
+    "nodemailer": "^6.4.16"
   }
 }
